@@ -1,0 +1,22 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.item-description {
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.item-completed:checked + .item-description {
+    background: #544f4fb1;
+    text-decoration: line-through;
+}
+
+#add {
+    padding: 8px 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: aqua;
+    cursor: pointer;
+}
